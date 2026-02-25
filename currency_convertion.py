@@ -13,4 +13,4 @@ cotizacion = dolar_hoy.get_oficial_price()
 moneda = int(input("Ingrese el monto en pesos: "))
 
 #Se imprime el monto convertido
-print(f"AR ${moneda} son U$D {moneda*cotizacion['venta']}")
+print(f"AR ${moneda} son U$D {moneda/cotizacion['venta']}")
