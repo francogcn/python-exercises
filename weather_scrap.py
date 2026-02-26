@@ -12,3 +12,5 @@ temperature  = soup.select('.CurrentConditions--tempValue--zUBSz')
 if len(temperature) > 0:
   print(f"Temperature in Posadas is {temperature[0].getText()}C")
   print("Source: Weather.com")
+else:
+  print("Search failed")
