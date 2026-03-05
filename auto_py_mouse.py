@@ -15,7 +15,7 @@ try:
         # Move to the random coordinates with a short duration
         pyautogui.moveTo(x, y, duration=0.25)
         pyautogui.click(x,y)
-        pyautogui.vscroll(-10)
+        pyautogui.vscroll(-15)
         # Wait for 15 seconds before the next move
         time.sleep(15)
 except pyautogui.FailSafeException:
@@ -23,3 +23,4 @@ except pyautogui.FailSafeException:
 except KeyboardInterrupt:
 
     print("Script terminated by user (Ctrl+C).")
+
