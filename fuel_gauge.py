@@ -20,7 +20,8 @@ def askFraction():
     if fraction[i] == "/":
       x = int(fraction[0:i])
       y = int(fraction[i+1:len(fraction)])
-askFraction()
+      return x,y
+[x,y] = askFraction()
 
 while x <0 or y <= x or y == 0:
-  askFraction()
+  [x,y] = askFraction()
