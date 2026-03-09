@@ -21,12 +21,18 @@ def askFraction():
       x = int(fraction[0:i])
       y = int(fraction[i+1:len(fraction)])
       return x,y
-
+def show_level(level):
+  if level <= 1:
+    print("E")
+  elif level >= 99:
+    print("F")
+  else:
+    print(f"{level}%")
 def main():
   [x,y] = askFraction()
 
   while x <0 or y <= x or y == 0:
     [x,y] = askFraction()
   tank_level = round(x/y*100)
-  print(f"{tank_level}%")
+  show_level(tank_level)
 main()
