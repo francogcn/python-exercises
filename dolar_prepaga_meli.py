@@ -1,3 +1,7 @@
+#This script scraps the exchange price from the Mercado Pago web pag
+#The price reflects the value of exchange for transactions made in U$D
+#and paid with Argentinian pesos.
+
 #Import required modules
 import requests, bs4
 #Declare headers to access page as user
