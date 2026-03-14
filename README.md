@@ -5,3 +5,5 @@ Projects include:
 * Web-scrapping
 * File handling
 * Backend development
+> Currently:
+> Practising with "automate the boring stuff with python"
