@@ -7,3 +7,4 @@ Projects include:
 * Backend development
 ## Currently:
 > Practising with "Automate the Boring Stuff with Python"
+
