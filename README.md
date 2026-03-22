@@ -8,3 +8,5 @@ Projects include:
 ## Currently:
 > Practising with "Automate the Boring Stuff with Python"
 
+# Next
+**_Machine Learning_** 
